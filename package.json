@@ -2,9 +2,10 @@
   "name": "react-carousel-minimal",
   "description": "Responsive, minimal and customizable Carousel Component for React Projects.",
   "author": {
-    "name": "Sahil Saha",
-    "url": "https://sahilsaha.me"
+    "name": "Luigi Cavuoti",
+    "url": "https://lcavuoti.github.io/react-carousel-minimal"
   },
+  "homepage": "https://lcavuoti.github.io/react-carousel-minimal",
   "version": "1.4.1",
   "private": false,
   "license": "MIT",
@@ -16,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sahilsaha7773/react-carousel-minimal.git"
+    "url": "git+https://github.com/lcavuoti/react-carousel-minimal.git"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
@@ -28,8 +29,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
