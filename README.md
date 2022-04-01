@@ -10,7 +10,7 @@ Easy to use, responsive and customizable carousel component for React Projects.
 `npm i react-carousel-minimal`
 
 Check out the demo here: 
-[Demo Link](http://sahilsaha.me/react-carousel-minimal-demo/)
+[Demo Link](https://lcavuoti.github.io/react-carousel-minimal/)
 
 ## Features
   - Responsive
