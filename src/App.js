@@ -63,7 +63,7 @@ function App() {
   return (
     <div className="App">
       <div style={{ textAlign: "center" }}>
-        <h2>React Carousel Minimal 2022</h2>
+        <h2>my React Carousel Minimal 2022</h2>
         <p>
           Easy to use, responsive and customizable carousel component for React
           Projects.
