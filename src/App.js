@@ -65,7 +65,7 @@ function App() {
       <div style={{ textAlign: "center" }}>
         <h2>my React Carousel Minimal 2022</h2>
         <p>
-          Easy to use, responsive and customizable carousel component for React
+          Very Easy to use, responsive and customizable carousel component for React
           Projects.
         </p>
         <div
