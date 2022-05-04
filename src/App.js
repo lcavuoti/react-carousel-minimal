@@ -75,19 +75,19 @@ function App() {
         >
           <Carousel
             data={data}
-            time={2000}
+            time={4000}
             width="850px"
             height="500px"
             captionStyle={captionStyle}
             radius="10px"
-            slideNumber={false}
+            slideNumber={true}
             slideNumberStyle={slideNumberStyle}
             captionPosition="bottom"
             automatic={true}
             dots={true}
             pauseIconColor="white"
             pauseIconSize="40px"
-            slideBackgroundColor="darkblue"
+            slideBackgroundColor="darkgrey"
             slideImageFit="cover"
             thumbnails={true}
             thumbnailWidth="100px"
