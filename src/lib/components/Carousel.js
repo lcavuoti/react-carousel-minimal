@@ -38,7 +38,7 @@ function Carousel({
   //Start the automatic change of slide
   useEffect(() => {
     if (automatic) {
-      var index = slide;
+      let index = slide;
       const interval = setInterval(
         () => {
           if (!isPaused) {
