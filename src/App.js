@@ -75,7 +75,7 @@ function App() {
         >
           <Carousel
             data={data}
-            time={4000}
+            time={10000}
             width="850px"
             height="500px"
             captionStyle={captionStyle}
